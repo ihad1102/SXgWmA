@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical"
+   >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="147px"
+        android:src="@mipmap/logo"
+        />
+
+    <com.app.sxgwma.ui.UIButton
+        android:id="@+id/btn_register"
+        android:layout_marginTop="308px"
+        android:layout_width="match_parent"
+        android:layout_height="101px"
+        android:layout_marginRight="125px"
+        android:layout_marginLeft="125px"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/sp20"
+        android:textColor="@color/white"
+        android:text="@string/register_immediately"
+        android:background="@drawable/register_immediately_bround"
+        />
+    <com.app.sxgwma.ui.UIButton
+        android:id="@+id/btn_login"
+        android:layout_marginTop="29px"
+        android:layout_width="match_parent"
+        android:layout_height="101px"
+        android:layout_marginRight="125px"
+        android:textColor="@color/c5b73c5"
+        android:layout_marginLeft="125px"
+        android:text="@string/login"
+        android:textSize="@dimen/sp20"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_bround"
+        />
+</com.zhy.autolayout.AutoLinearLayout>

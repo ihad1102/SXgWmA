@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UIButton">
+        <attr name="color_pressed" format="color"/>
+        <attr name="color_unpressed" format="color"/>
+        <attr name="ripple_color" format="color"/>
+        <attr name="ripple_alpha" format="integer"/>
+        <attr name="ripple_duration" format="integer"/>
+        <attr name="alpha_pressed" format="integer"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="shape_type" format="enum">
+            <enum name="round" value="0"/>
+            <enum name="rectangle" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ActionBar">
+        <attr name="title" format="string" localization="suggested" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView"> 
+        <attr name="android:galleryItemBackground" /> 
+        
+    </declare-styleable>
+    <declare-styleable name="CircleImageView_border_width"> 
+        <attr name="android:galleryItemBackground" /> 
+        
+    </declare-styleable>
+    
+    <color name="CircleImageView_border_color" >#888</color>
+    <dimen name="CircleImageView_border_width"
+        >0.5dp</dimen>
+</resources>

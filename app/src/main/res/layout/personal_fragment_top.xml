@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="300px">
+   <com.zhy.autolayout.AutoLinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_vertical"
+       android:orientation="vertical"
+       android:layout_marginLeft="50px"
+       >
+       <com.app.sxgwma.view.CircleImageView
+           android:id="@+id/ci_img"
+           android:layout_marginTop="10px"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@mipmap/personaltouxiang"
+           />
+      <TextView
+          android:id="@+id/tv_user"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/not_certified"
+          android:layout_marginTop="15px"
+          android:layout_gravity="center_horizontal"
+          />
+       <TextView
+           android:id="@+id/tv_immediate_authentication"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10px"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/immediate_authentication"
+           android:textColor="@color/ce3c19"
+           android:textSize="@dimen/sp14"
+           />
+   </com.zhy.autolayout.AutoLinearLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="53px"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="60px"
+            android:id="@+id/tv_name"/>
+     <com.zhy.autolayout.AutoLinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:layout_marginTop="24px"
+         >
+         <TextView
+             android:id="@+id/tv_agent"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/agent" />
+         <TextView
+             android:id="@+id/tv_become_agent"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="50px"
+             android:background="@drawable/login_bround"
+             android:textSize="@dimen/sp12"
+             android:textColor="@color/white"
+             android:padding="@dimen/dp1"
+             android:text="@string/click_become_agent" />
+     </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24px"
+            >
+            <TextView
+                android:id="@+id/tv_agent_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/agent_level" />
+            <TextView
+                android:id="@+id/tv_total_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:text="@string/total_sales" />
+        </com.zhy.autolayout.AutoLinearLayout>
+        <com.zhy.autolayout.AutoLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24px"
+            >
+            <TextView
+                android:id="@+id/tv_recommended_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recommended_person" />
+            <TextView
+                android:id="@+id/tv_ids"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50px"
+                android:text="@string/ids" />
+        </com.zhy.autolayout.AutoLinearLayout>
+
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>
